@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_today"
+        android:icon="@drawable/baseline_today_black_24dp"
+        android:title="Today" />
+
+    <item
+        android:id="@+id/navigation_dzikr"
+        android:icon="@drawable/ic_dzikr"
+        android:title="Dzikr" />
+
+    <item
+        android:id="@+id/navigation_report"
+        android:icon="@drawable/ic_report"
+        android:title="Report" />
+
+</menu>

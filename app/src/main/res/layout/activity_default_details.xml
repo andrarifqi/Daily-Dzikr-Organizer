@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.dzikr_page.module.dzikr_default.details.DefaultDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="13dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="15"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:text="Dzikr Details"
+                android:letterSpacing="0.05"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:id="@+id/name_dzikr_default"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="15"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Dzikr Name"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:id="@+id/lafadz_dzikr_default"
+                android:layout_width="match_parent"
+                android:gravity="end"
+                android:layout_height="match_parent"
+                android:ems="15"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:letterSpacing="0.1"
+                android:text="Lafadz of Dzikr"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:id="@+id/target_dzikr_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Dzikr Target"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins_regular"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

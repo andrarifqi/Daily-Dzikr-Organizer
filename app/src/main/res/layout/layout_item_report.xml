@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/tv_dzikrname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Dzikr Name"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="24sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_current_recitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Current Recitation :"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="18sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_dzikr_target"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Dzikr target : "
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="18sp">
+            </TextView>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>

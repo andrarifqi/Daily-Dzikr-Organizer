@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_today">
+
+    <fragment
+        android:id="@+id/navigation_today"
+        android:name="com.rifqiandra.dailydzikrorganizer.page.today_page.TodayFragment"
+        android:label="Today"
+        tools:layout="@layout/fragment_today" />
+
+    <fragment
+        android:id="@+id/navigation_dzikr"
+        android:name="com.rifqiandra.dailydzikrorganizer.page.dzikr_page.DzikrFragment"
+        android:label="Dzikr"
+        tools:layout="@layout/fragment_dzikr" />
+
+    <fragment
+        android:id="@+id/navigation_counter"
+        android:name="com.rifqiandra.dailydzikrorganizer.page.counter_page.CounterFragment"
+        android:label="Counter"
+        tools:layout="@layout/fragment_counter" />
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.rifqiandra.dailydzikrorganizer.page.report_page.ReportFragment"
+        android:label="Report"
+        tools:layout="@layout/fragment_report" />
+
+</navigation>

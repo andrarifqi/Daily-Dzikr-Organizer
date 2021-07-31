@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.dzikr_page.DzikrFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/btn_new_dzikr"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/letsdozikr_button"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_regular"
+            android:foregroundGravity="center"
+            android:text="ADD NEW DZIKR"
+            android:textColor="@color/bg_button"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_list_dzikr"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/letsdozikr_button"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="6dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_regular"
+                android:foregroundGravity="center"
+                android:text="LIST OF DZIKR"
+                android:textColor="@color/bg_button"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

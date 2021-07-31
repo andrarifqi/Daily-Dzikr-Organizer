@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.dzikr_page.module.custom.form.FormAddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="13dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/input_dzikrname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:hint="Dzikr Name"
+            android:textSize="26sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <EditText
+            android:id="@+id/input_lafadz_dzikr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginBottom="10dp"
+            android:inputType="textMultiLine"
+            android:hint="Lafadz of Dzikr"
+            android:textSize="30sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <EditText
+            android:id="@+id/input_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginBottom="10dp"
+            android:inputType="number"
+            android:hint="Dzikr target"
+            android:textSize="26sp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <EditText
+            android:id="@+id/input_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginBottom="10dp"
+            android:inputType="none"
+            android:hint="Date"
+            android:textSize="26sp"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="100dp"
+            android:text="Add"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>
